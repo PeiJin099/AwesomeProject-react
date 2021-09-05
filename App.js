@@ -8,10 +8,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.carcontainer}>
-        {/* <ImageBackground 
-        source={require('assets/images/ModelX.jpeg')} 
+        <ImageBackground 
+        source={require('./assets/images/ModelX.jpeg')} 
         style={styles.image}
-        /> */}
+        />
 
         <View style={styles.titles}>
           <Text style={styles.title}>Model s</Text>
