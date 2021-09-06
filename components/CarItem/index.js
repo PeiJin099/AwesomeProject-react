@@ -7,7 +7,7 @@ import styles from './styles';
 //information to a Component using something called props (stands for properties)
 const CarItem = (props) => {
 
-  const { name, tagline, taglineCTA, image } = props;
+  const { name, tagline, taglineCTA, image } = props.car;
 
     return (
        
